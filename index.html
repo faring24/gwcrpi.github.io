@@ -8,6 +8,7 @@
     <title>Girls Who Code RPI</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Oswald:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <!--NAVIGATION BAR (implemented with Bootstrap) -->
@@ -41,26 +42,51 @@
     </section>
 
     <section id="aboutUs">
-        <img src="assets/img/aboutUs.svg" alt="About Us Header">
-        <div id="aboutUs-description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-        </div>
-        <div id="aboutUs-gradient">
-            <img src="assets/img/gradient.svg" alt="Gradient Image">
+        <div class="row">        
+            <div id="left-col" class="col-sm">        
+                <img class="svg-header" src="assets/img/aboutUs.svg" alt="About Us Header">
+                <div id="aboutUs-description">
+                    <p>Girls Who Code is on a mission to close the gender gap in technology and 
+                        to change the image of what a programmer looks like and does</p>                    
+                </div>
+            </div>
+
+            <div id="right-col" class="col-sm">
+                <div id="aboutUs-gradient">
+                    <img id="gradient-img" src="assets/img/gradient.svg" alt="Gradient Image">
+                </div>
+            </div>
         </div>
     </section>
     
     <section id="calendar">
-        <img src="assets/img/calendar.svg" alt="Calendar Header">
+        <div class="text-center">
+            <img class="svg-header" src="assets/img/calendar.svg" alt="Calendar Header">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Z3djcnBpQGdtYWlsLmNvbQ&amp;color=%23039BE5" style="border:solid 1px #777; margin-top:40px;" width="900" height="700" frameborder="0" scrolling="no"></iframe>
+        </div>
     </section>
     
     <section id="photoGallery">
-        <img src="assets/img/photoGallery.svg" alt="Photo Gallery Header">
+        <div class="text-center">
+            <img class="svg-header" src="assets/img/photoGallery.svg" alt="Photo Gallery Header">
+        </div>
     </section>
+
+    <footer>
+        <a class="nav-link js-scroll-trigger active" href="#home"><img id="gwc-logo-white" src="assets/img/gwc_logo_white.svg" alt="GWC Logo" width="150px"></a>
+        
+
+       
+        <a href="mailto:gwcrpi@gmail.com">gwcrpi@gmail.com</a>
+
+        <div>
+            <a href="https://www.instagram.com/gwcrpi/"><i class="ri-instagram-line"></i></a>
+            <a href="https://discord.gg/YHWC8TwQ"><i class="ri-discord-fill"></i></a>
+            <a href="https://github.com/gwcrpi"><i class="ri-github-fill"></i></a>
+        </div>
+
+        
+    </footer>
 
 </body>
 </html>
