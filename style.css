@@ -1,0 +1,31 @@
+/* font-family: 'Karla', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive; */
+body{
+    background-color: #32717A;
+}
+.bg-dark-blue {
+    background-color: #0E4051;
+}
+.nav-link-size {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    color: white !important;
+    margin: 8px;
+}    
+#discord-link {
+    background-color: #0CA195;   
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+
+}
+#gwc-logo-white {
+    margin: 20px;
+}
+#gwc-homepage-logo {
+    width: 900px;
+    margin: 50px;
+}
