@@ -18,6 +18,10 @@ p {
     color: white !important;
     margin: 8px;
 }    
+.nav-link-size:hover {
+    opacity: 80%;
+    transition: 0.3s;
+}
 #discord-link {
     background-color: #0CA195;   
     border-radius: 20px;
@@ -26,6 +30,10 @@ p {
     width: 150px;
     margin: 20px;
 
+}
+#discord-link:hover {
+    opacity: 80%;
+    transition: 0.3s;
 }
 #gwc-logo-white {
     margin: 20px;
@@ -48,11 +56,41 @@ section {
 .svg-header{
     width: 450px;
 }
+
 footer {
     background-color: #0E4051;
-    display: flex;
+}
+.float-right {
+    margin: 30px;
+}
+#email-link {
+    color: white;
+    text-decoration: none;
+}
+#email-link:hover {
+    text-decoration: none;
+    opacity: 70%;
+    transition: 0.2s;
 }
 i {
     font-size: 40px;
+    font-family: 'Karla', sans-serif;
     color: white;
+}
+.contact-icon {
+    text-decoration-color: #0E4051;
+}
+.contact-icon:hover {
+    text-decoration-color: #0CA195;
+    transition: 0.3s ease-in;
+}
+.contact-info {
+    margin: 30px;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
 }
