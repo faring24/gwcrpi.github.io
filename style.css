@@ -44,7 +44,10 @@ p {
     margin-bottom: 100px;
 }
 section {
-    margin: 90px;
+    margin: 90px;    
+}
+#aboutUs, #calendar, #photoGallery{
+    padding-top:140px;
 }
 #gradient-img {
     width: 100%;
