@@ -46,7 +46,7 @@ p {
 section {
     margin: 90px;    
 }
-#aboutUs, #calendar, #photoGallery{
+#aboutUs, #calendar, #photoGallery, #sponsorship{
     padding-top:140px;
 }
 #gradient-img {
@@ -102,4 +102,11 @@ i {
 }
 h2{
     color: white;
+}
+.sponsorship{
+    color: white;
+    text-decoration: underline;
+}
+.sponsorship:hover{
+    color: #EDE912
 }
