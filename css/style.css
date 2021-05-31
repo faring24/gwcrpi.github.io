@@ -1,27 +1,32 @@
 /* font-family: 'Karla', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Pacifico', cursive; */
-body{
+body {
     background-color: #32717A;
 }
+
 p {
     color: white;
     font-family: 'Karla', sans-serif;
     font-size: 26px;
 }
+
 .bg-dark-blue {
     background-color: #0E4051;
 }
+
 .nav-link-size {
     font-family: 'Karla', sans-serif;
     font-size: 20px;
     color: white !important;
     margin: 8px;
-}    
+}
+
 .nav-link-size:hover {
     opacity: 80%;
     transition: 0.3s;
 }
+
 #discord-link {
     background-color: #0CA195;   
     border-radius: 20px;
@@ -29,84 +34,130 @@ p {
     text-align: center;
     width: 150px;
     margin: 20px;
-
 }
+
 #discord-link:hover {
     opacity: 80%;
     transition: 0.3s;
 }
+
 #gwc-logo-white {
     margin: 20px;
 }
+
 #gwc-homepage-logo {
     width: 700px;
     margin-top: 200px;
     margin-bottom: 100px;
 }
+
 section {
     margin: 90px;    
 }
-#aboutUs, #calendar, #photoGallery, #sponsorship{
+
+#aboutUs, #calendar, #photoGallery, #sponsorship, #board {
     padding-top:140px;
 }
+
 #gradient-img {
     width: 100%;
     margin-left: 40px;
 }
+
 #aboutUs-description {
     margin-top: 50px;
 }
-.svg-header{
+
+.svg-header {
     width: 450px;
 }
 
 footer {
     background-color: #0E4051;
 }
+
 .float-right {
     margin: 30px;
 }
+
 #email-link {
     color: white;
     text-decoration: none;
 }
+
 #email-link:hover {
     text-decoration: none;
     opacity: 70%;
     transition: 0.2s;
 }
+
 i {
     font-size: 40px;
     font-family: 'Karla', sans-serif;
     color: white;
 }
+
 .contact-icon {
     text-decoration-color: #0E4051;
 }
+
 .contact-icon:hover {
     text-decoration-color: #0CA195;
     transition: 0.3s ease-in;
 }
+
 .contact-info {
     margin: 30px;
 }
+
 .row {
     display: flex;
 }
+
 .column {
     flex: 33.33%;
     padding: 5px;
 }
+
 .gallery-images {
     margin-top: 40px;
 }
-h2{
+
+h2 {
     color: white;
 }
-.sponsorship{
+
+.sponsorship {
     color: white;
     text-decoration: underline;
 }
-.sponsorship:hover{
+
+.sponsorship:hover {
     color: #EDE912
+}
+
+.board-pic {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#board .row {
+    margin-top: 25px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 26px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.col {
+    text-align: center;
 }
